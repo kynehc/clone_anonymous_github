@@ -5,8 +5,9 @@ clone / download repositories from anonymous.4open.science
 ```
 git clone https://github.com/kynehc/clone_anonymous_github.git
 cd clone_anonymous_github
-python download.py --url anonymous-root-url --dir savepath/
+python download.py --url https://anonymous.4open.science/r/****/ --dir savepath/
 ```
+pls make sure there is a slash in the end of url.
 
 #### Acknowledgement
 
